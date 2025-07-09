@@ -1,0 +1,28 @@
+# Node modules
+node_modules/
+
+# WordPress uploads and cache
+debug.log
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/backup-*/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment and config
+.env
+*.log
+*.sql
+
+# OS generated files
+*.swp
+*.swo
+
+# Composer vendor (if used)
+vendor/
+
+# Tailwind and build artifacts (optional, if you want to ignore built CSS)
+# style.css 
