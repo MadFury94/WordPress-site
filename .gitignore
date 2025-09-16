@@ -1,28 +1,33 @@
-# Node modules
-node_modules/
-
-# WordPress uploads and cache
-debug.log
-wp-content/uploads/
-wp-content/cache/
-wp-content/upgrade/
-wp-content/backup-*/
-
-# System files
+# OS / Editor
 .DS_Store
 Thumbs.db
-
-# Environment and config
-.env
 *.log
-*.sql
-
-# OS generated files
+*.tmp
 *.swp
-*.swo
+.vscode/
+.idea/
 
-# Composer vendor (if used)
-vendor/
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
 
-# Tailwind and build artifacts (optional, if you want to ignore built CSS)
-# style.css 
+# Build artifacts
+wp-content/themes/katalystpress/assets/css/tailwind.css
+wp-content/themes/katalystpress/assets/css/tailwind.css.map
+
+# Local binaries
+wp-content/themes/katalystpress/tailwindcss.exe.exe
+
+# WordPress uploads (optional - comment out if you want to track)
+# wp-content/uploads/
+
+# Env/config (optional)
+.env
+.env.local
+
+# Composer (if used)
+/vendor/
+composer.lock 
